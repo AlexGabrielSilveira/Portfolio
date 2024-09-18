@@ -7,11 +7,8 @@
 :root {
   --background: #ebeaea;
 }
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --foreground: #ededed;
-  }
+:root {
+  --foreground: black;
 }
 
 body {

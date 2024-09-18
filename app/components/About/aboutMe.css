@@ -4,6 +4,7 @@
     flex-direction: column;
     margin: 100px 0px;
     line-height: 40px;
+    color: black;
 }
 .about_me_content p {
     padding-left: 10px;
