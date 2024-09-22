@@ -1,8 +1,16 @@
 h1 {
-    margin-top: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+}
+@media (max-width: 1460px) {
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

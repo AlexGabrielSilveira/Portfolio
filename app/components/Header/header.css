@@ -1,5 +1,8 @@
 header {
-    line-height: 40px;
+    line-height: 20px;
+}
+header h1 {
+    line-height: 30px;
 }
 header ul {
     display: flex;
@@ -15,4 +18,13 @@ header ul li{
 header ul li:hover {
     color: #db4f40;
     transition: 240ms;
+}
+
+@media (max-width: 500px) {
+    header ul {
+        justify-content: center;
+    }
+    header {
+        text-align: center;
+    }
 }

@@ -1,0 +1,20 @@
+.tower_content {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    line-height: 20px;
+    width: 100%;
+}
+.tower_content ul {
+    list-style-type: none;
+}
+.tower_content img {
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
+@media (max-width: 1460px) {
+    .tower_content img {
+        width: 100%;
+    }
+}
